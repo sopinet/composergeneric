@@ -2,7 +2,7 @@
     "name": "sopinet/composergeneric",
     "version": "0.0.1",
     "description": "Generic composer",
-    "keywords": ["composer, generic"],
+    "keywords": ["composer"],
     "type": "",
     "license": "MIT",
     "authors": [
