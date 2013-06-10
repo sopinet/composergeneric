@@ -47,7 +47,7 @@
         "knplabs/knp-components": "1.2.*",
 	"stof/doctrine-extensions-bundle": "dev-master",
 	"sopinet/bootstrap-extend-bundle": "dev-master",
-        "jquery/jquery": "*",
+        "jquery/jquery": "*"
     },
 	"scripts": {
         "post-install-cmd": [
