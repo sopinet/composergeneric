@@ -5,7 +5,7 @@
     "keywords": ["composer"],
     "type": "",
     "license": "MIT",
-		"minimum-stability = "dev",
+		"minimum-stability": "dev",
     "authors": [
         {
             "name": "Luis Miguel Lopez",
