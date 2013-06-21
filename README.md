@@ -1,4 +1,4 @@
 composergeneric
 ===============
 
-General composer
+General composer for Symfony2 use
