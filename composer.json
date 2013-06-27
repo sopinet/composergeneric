@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "Generic composer",
     "keywords": ["composer"],
-    "discard-changes" : "true"
+    "discard-changes" : "true",
     "type": "",
     "license": "MIT",
 		"minimum-stability": "dev",
