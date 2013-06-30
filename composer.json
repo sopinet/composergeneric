@@ -47,7 +47,6 @@
 		"friendsofsymfony/rest-bundle": "dev-jsonp_handler",
         "friendsofsymfony/user-bundle" : "1.3.*",   
        	"twitter/bootstrap": "2.3.*",
-       	"braincrafted/bootstrap-bundle": "dev-master",
        	"craue/formflow-bundle": "dev-master",
        	"sonata-project/doctrine-orm-admin-bundle": "2.2.*@dev",
         "knplabs/knp-paginator-bundle": "2.3.*",
