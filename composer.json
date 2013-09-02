@@ -35,7 +35,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "kriswallsmith/assetic": "1.1.*@dev",
         "sonata-project/doctrine-extensions": "1.*",
-        "sonata-project/easy-extends-bundle" : "dev-master",
+        "sonata-project/easy-extends-bundle" : "2.1.*",
         "sonata-project/cache-bundle": "dev-master",
         "sonata-project/jquery-bundle": "1.8.*",
         "sonata-project/exporter": "1.1.0",
