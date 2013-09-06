@@ -55,7 +55,8 @@
         "friendsofsymfony/user-bundle" : "1.3.*",
         "jms/serializer-bundle": "0.12.0",
         "jms/security-extra-bundle": "1.5.*",
-        "jms/di-extra-bundle": "1.4.*"
+        "jms/di-extra-bundle": "1.4.*",
+	"raulfraile/ladybug-bundle": "v0.61"
     },
 	"scripts": {
         "post-install-cmd": [
