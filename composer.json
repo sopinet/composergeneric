@@ -56,7 +56,7 @@
         "jms/serializer-bundle": "0.12.0",
         "jms/security-extra-bundle": "1.5.*",
         "jms/di-extra-bundle": "1.4.*",
-	"raulfraile/ladybug-bundle": "v0.61"
+	"raulfraile/ladybug-bundle": "dev-master"
     },
 	"scripts": {
         "post-install-cmd": [
