@@ -57,7 +57,7 @@
         "jms/security-extra-bundle": "1.5.*",
         "jms/di-extra-bundle": "1.4.*",
 	"raulfraile/ladybug-installer": "dev-master",
-	"railfraile/ladybug": "dev-master",
+	"raulfraile/ladybug": "1.0.0-alpha4",
 	"raulfraile/ladybug-bundle": "dev-master"
     },
 	"scripts": {
