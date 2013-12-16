@@ -42,11 +42,12 @@
         "sonata-project/google-authenticator": "1.*",
         "sonata-project/user-bundle": "2.2.*",
         "sonata-project/block-bundle": "2.2.*",
+        "sonata-project/core-bundle" : "~2.2@dev"
         "twitter/bootstrap": "2.3.*",
        	"craue/formflow-bundle": "dev-master",
        	"sonata-project/doctrine-orm-admin-bundle": "2.2.*",
-		"knplabs/knp-components": "1.2.1",
-		"knplabs/knp-paginator-bundle": "~2.3"
+	"knplabs/knp-components": "1.2.1",
+	"knplabs/knp-paginator-bundle": "~2.3"
         "knplabs/knp-menu-bundle": "1.1.*",
         "stof/doctrine-extensions-bundle": "dev-master",
         "a2lix/translation-form-bundle" : "1.*@dev",
@@ -56,7 +57,7 @@
         "jms/serializer-bundle": "dev-master",
         "jms/security-extra-bundle": "dev-master",
         "jms/di-extra-bundle": "dev-master",
-		"raulfraile/ladybug-bundle": "v0.7"
+	"raulfraile/ladybug-bundle": "v0.7"
     },
 	"scripts": {
         "post-install-cmd": [
