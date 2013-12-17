@@ -72,7 +72,8 @@
         "jms/di-extra-bundle": "dev-master",
         "raulfraile/ladybug-bundle": "v0.7",
         "twbs/bootstrap": "3.0.*",
-        "jquery/jquery":  "1.10.*",        
+        "jquery/jquery":  "1.10.*",  
+        "leafo/lessphp": "0.4.0",      
         "braincrafted/bootstrap-bundle": "~2.0"
     },
 	"scripts": {
@@ -82,14 +83,16 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport"
+            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
+            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport"
+            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
+            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
         ]
     },
     "extra": {
