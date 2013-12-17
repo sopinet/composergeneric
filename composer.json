@@ -60,8 +60,8 @@
         "twitter/bootstrap": "2.3.*",
        	"craue/formflow-bundle": "dev-master",
        	"sonata-project/doctrine-orm-admin-bundle": "2.2.*",
-	    "knplabs/knp-components": "1.2.1",
-	    "knplabs/knp-paginator-bundle": "~2.3",
+	"knplabs/knp-components": "1.2.1",
+	"knplabs/knp-paginator-bundle": "~2.3",
         "knplabs/knp-menu-bundle": "1.1.*",
         "stof/doctrine-extensions-bundle": "dev-master",
         "a2lix/translation-form-bundle" : "2.x-dev",
@@ -73,8 +73,7 @@
         "jms/di-extra-bundle": "dev-master",
         "raulfraile/ladybug-bundle": "v0.7",
         "twbs/bootstrap": "3.0.*",
-        "jquery/jquery":  "1.10.*",    
-        "braincrafted/bootstrap-bundle": "~2.0"
+        "jquery/jquery":  "1.10.*"
     },
 	"scripts": {
         "post-install-cmd": [
@@ -83,16 +82,14 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
-            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
+            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
-            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
+            "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport"
         ]
     },
     "extra": {
