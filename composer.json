@@ -56,7 +56,7 @@
         "sonata-project/google-authenticator": "1.*",
         "sonata-project/user-bundle": "2.2.*",
         "sonata-project/block-bundle": "2.2.*",
-        "sonata-project/core-bundle" : "~2.2@dev"
+        "sonata-project/core-bundle" : "~2.2@dev",
         "twitter/bootstrap": "2.3.*",
        	"craue/formflow-bundle": "dev-master",
        	"sonata-project/doctrine-orm-admin-bundle": "2.2.*",
