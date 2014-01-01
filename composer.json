@@ -74,7 +74,8 @@
         "raulfraile/ladybug-bundle": "v0.7",
         "twbs/bootstrap": "3.0.*",
         "jquery/jquery":  "1.10.*",
-        "braincrafted/bootstrap-bundle": "~2.0@alpha"
+        "braincrafted/bootstrap-bundle": "~2.0@alpha",
+        "knplabs/doctrine-behaviors": "dev-master"
     },
 	"scripts": {
         "post-install-cmd": [
