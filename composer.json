@@ -18,20 +18,7 @@
             "email": "fhidalgo@sopinet.com",
             "homepage": "http://sopinet.com"
         }
-    ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/jquery",
-                "version": "1.10.2",
-                "dist": {
-                    "url": "http://code.jquery.com/jquery-1.10.2.js",
-                    "type": "file"
-                }
-            }
-        }
-    ],    
+    ], 
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.4.*",
@@ -73,8 +60,6 @@
         "jms/di-extra-bundle": "*",
         "raulfraile/ladybug-bundle": "v0.7",
         "twbs/bootstrap": "3.0.*",
-        "jquery/jquery":  "1.10.*",
-        "braincrafted/bootstrap-bundle": "~2.0@alpha",
         "knplabs/doctrine-behaviors": "dev-master"
     },
 	"scripts": {
@@ -85,7 +70,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
-            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -93,7 +77,6 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sopinet\\Bundle\\BootstrapExtendBundle\\Composer\\ScriptHandler::copyExport",
-            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
         ]
     },
     "extra": {
