@@ -15,19 +15,6 @@ You could install Symfony2 with this composer, you can add more libraries if you
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/jquery",
-                "version": "1.10.2",
-                "dist": {
-                    "url": "http://code.jquery.com/jquery-1.10.2.js",
-                    "type": "file"
-                }
-            }
-        }
-    ], 
     "minimum-stability": "dev",  
     "require": {
         "sopinet/composergeneric": "dev-master"
