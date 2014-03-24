@@ -23,7 +23,7 @@ You could install Symfony2 with this composer, you can add more libraries if you
 ```
 AppKernel.php
 =============
-
+```yaml
 new JMS\AopBundle\JMSAopBundle(),
 new JMS\DiExtraBundle\JMSDiExtraBundle($this),
 new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
@@ -46,10 +46,11 @@ new JMS\SerializerBundle\JMSSerializerBundle($this),
 new FOS\RestBundle\FOSRestBundle(),     
 new Sopinet\Bundle\BootstrapExtendBundle\SopinetBootstrapExtendBundle(),
 new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle()
+```
 
 config.yml
 ==========
-
+```yaml
 framework:
     translator:      ~
 
@@ -67,9 +68,13 @@ doctrine:
     dbal:
         types:
             json: Sonata\Doctrine\Types\JsonType
-            
+```
 SonataUser
 ==========
-
+```yaml
 php app/console sonata:easy-extends:generate SonataUserBundle --dest src
-Añadir a AppKernel: new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
+```
+Añadir a AppKernel:
+```yaml
+new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
+```
