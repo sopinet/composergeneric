@@ -59,7 +59,7 @@
         "jms/serializer-bundle": "dev-master",
         "jms/security-extra-bundle": "dev-master",
         "jms/di-extra-bundle": "*",
-        "raulfraile/ladybug-bundle": "v0.7",
+        "raulfraile/ladybug-bundle": "~1.0",
         "twbs/bootstrap": "3.0.*",
         "knplabs/doctrine-behaviors": "dev-master"
     },
