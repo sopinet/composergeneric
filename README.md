@@ -6,6 +6,15 @@ General composer for Symfony2 use
 Use sample
 ==========
 
+Installing Symfony 2.4
+======================
+
+cd /var/www
+curl -sS https://getcomposer.org/installer | php
+php composer.phar create-project symfony/framework-standard-edition MyProject "2.4.*"
+
+Modify Composer
+===============
 You could install Symfony2 with this composer, you can add more libraries if you need it:
 
 ```yaml
@@ -21,7 +30,10 @@ You could install Symfony2 with this composer, you can add more libraries if you
     }
 }
 ```
-AppKernel.php
+
+Now... execute composer.phar update
+
+Add to AppKernel.php
 =============
 ```yaml
 new JMS\AopBundle\JMSAopBundle(),
