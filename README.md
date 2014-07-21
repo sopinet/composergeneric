@@ -1,10 +1,7 @@
-composergeneric
-===============
+Description
+===========
 
-General composer for Symfony2 use
-
-Use sample
-==========
+General composer for Symfony2 use. Install a Symfony2 system easy and quickly.
 
 Installing Symfony 2.4
 ======================
