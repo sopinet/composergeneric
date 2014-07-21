@@ -9,9 +9,11 @@ Use sample
 Installing Symfony 2.4
 ======================
 
+```
 cd /var/www
 curl -sS https://getcomposer.org/installer | php
 php composer.phar create-project symfony/framework-standard-edition MyProject "2.4.*"
+```
 
 Modify Composer
 ===============
