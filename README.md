@@ -61,6 +61,9 @@ new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle()
 
 config.yml
 ==========
+
+Add:
+
 ```yaml
 framework:
     translator:      ~
@@ -74,12 +77,43 @@ fos_user:
        
 sonata_block:
     default_contexts: [cms]
-    
+```
+
+Modify doctrine part:
+
+```yaml
+# Doctrine Configuration
 doctrine:
     dbal:
+        driver:   "%database_driver%"
+        host:     "%database_host%"
+        port:     "%database_port%"
+        dbname:   "%database_name%"
+        user:     "%database_user%"
+        password: "%database_password%"
+        charset:  UTF8
+        # if using pdo_sqlite as your database driver, add the path in parameters.yml
+        # e.g. database_path: "%kernel.root_dir%/data/data.db3"
+        # path:     "%database_path%"
         types:
             json: Sonata\Doctrine\Types\JsonType
+        mapping_types:
+            enum: string                    
+
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        auto_mapping: true
+        
+stof_doctrine_extensions:
+    default_locale: %locale%
+    translation_fallback: true    
+    orm:
+        default:
+            translatable: true
+    uploadable:
+        validate_writable_directory: true 
 ```
+
 SonataUser
 ==========
 ```yaml
