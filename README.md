@@ -77,6 +77,16 @@ fos_user:
        
 sonata_block:
     default_contexts: [cms]
+
+monolog:
+    handlers:
+        main:
+            type:   stream
+            path:   "%kernel.logs_dir%/%kernel.environment%.log"
+            level:  debug
+        console:
+            type:   console
+            bubble: false
 ```
 
 Modify doctrine part:
