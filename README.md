@@ -78,15 +78,6 @@ fos_user:
 sonata_block:
     default_contexts: [cms]
 
-monolog:
-    handlers:
-        main:
-            type:   stream
-            path:   "%kernel.logs_dir%/%kernel.environment%.log"
-            level:  debug
-        console:
-            type:   console
-            bubble: false
 ```
 
 Modify doctrine part:
@@ -122,6 +113,56 @@ stof_doctrine_extensions:
             translatable: true
     uploadable:
         validate_writable_directory: true 
+```
+
+Monolog config for log on files
+
+```yaml
+monolog:
+    handlers:
+        main:
+            type:   stream
+            path:   "%kernel.logs_dir%/%kernel.environment%.log"
+            level:  debug
+        console:
+            type:   console
+            bubble: false
+        # uncomment to get logging in your browser
+        # you may have to allow bigger header sizes in your Web server configuration
+        #firephp:
+        #    type:   firephp
+        #    level:  info
+        #chromephp:
+        #    type:   chromephp
+        #    level:  info
+```
+
+Monolog config for log on email(params 'from' and 'to' are required)
+
+
+```yaml
+monolog:
+    handlers:
+        main:
+            type:         fingers_crossed
+            action_level: error
+            handler:      nested
+        nested:
+            type:  stream
+            path:  "%kernel.logs_dir%/%kernel.environment%.log"
+            level: debug
+        console:
+            type:  console
+
+elao_error_notifier:
+    from: 
+    to: 
+    handle404: true
+    mailer: mailer
+    handlePHPErrors: true
+    handlePHPWarnings: false
+    ignoredClasses: ~
+    repeatTimeout: 3600   
 ```
 
 SonataUser
