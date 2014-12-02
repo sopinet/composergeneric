@@ -63,7 +63,7 @@
         "twbs/bootstrap": "3.0.*",
         "knplabs/doctrine-behaviors": "dev-master"
     },
-	"scripts": {
+    "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
