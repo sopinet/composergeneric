@@ -55,7 +55,8 @@
         "jms/security-extra-bundle": "dev-master",
         "jms/di-extra-bundle": "*",
         "raulfraile/ladybug-bundle": "v0.7",
-        "knplabs/doctrine-behaviors": "dev-master"
+        "knplabs/doctrine-behaviors": "dev-master",
+        "sopinet/userbundle": "1.2.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
