@@ -38,7 +38,6 @@
       "sonata-project/core-bundle": "2.3.*@dev",
       "sonata-project/admin-bundle": "2.4.*@dev",
       "sonata-project/user-bundle": "2.3.*@dev",
-      "sonata-project/doctrine-mongodb-admin-bundle": "2.3.*@dev",
       "sonata-project/easy-extends-bundle": "2.1.*@dev",
       "sonata-project/block-bundle": "2.3.*@dev",
       "sonata-project/doctrine-orm-admin-bundle": "2.3.*@dev",
